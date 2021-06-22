@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameBass</title>
+  <link rel="stylesheet" href="../login/style.css">
+  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+  <form accept="login" method="POST">
+    <h3>Sing in</h3>
+
+    
+    <input id="usuario" type="text" placeholder="Username" autocomplete="off">
+    <input id="password" type="password" placeholder="Password">
+    <i class="fa fa-eye" aria-hidden="true"></i>
+    <div id="msgLogin"></div>
+    <button onclick="login()" type="button">Login</button>
+    <hr>
+      <p>Don't have an account?</p>
+      <a style="font-size: 14px;" href="../singup/index.html">Sing Up!</a>
+  </form>
+
+  <script src="../login/script.js"></script>
+</body>
+
+</html>

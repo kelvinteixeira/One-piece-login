@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBass Register</title>
+    <link rel="stylesheet" href="../singup/style.csS">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <form>
+        <h3>Sing up formulary</h3>
+
+        
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
+        <input id="name" type="text" placeholder="name" autocomplete="off">
+        <span class="msg-error" id="spanName" style="display: none;">Mínimo de 3 caracteres</span>
+
+        <input id="email" type="email" placeholder="email" autocomplete="off">
+        <span class="msg-error" id="spanEmail" style="display: none;">Email inválido</span>
+
+        <input id="username" type="text" placeholder="pirate username" autocomplete="off">
+        <span class="msg-error" id="spanUsername" style="display: none;">Mínimo de 5 caracteres</span>
+
+        <input id="passwordSingup" type="password" placeholder="password" autocomplete="off">
+        <span class="msg-error" id="spanPasswordSingup" style="display: none;">Mínimo de 6 caracteres</span>
+        <i class="fa fa-eye" aria-hidden="true"></i>
+
+
+        <input id="passwordSingupConfirm" type="password" placeholder="confirm password">
+        <span class="msg-error" id="spanPasswordSingupConfirm" style="display: none;">Senhas não conferem</span>
+        <i class="fa fa-eye confirm" aria-hidden="true"></i>
+
+
+        <button type="button" onclick="singup(); return false">Sing up</button>
+    </form>
+
+    <script src="../singup/script.js"></script>
+</body>
+
+</html>
