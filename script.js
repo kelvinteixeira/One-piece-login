@@ -44,7 +44,7 @@ function login() {
     msgLogin.innerHTML = `Seja bem vindo pirata ${userValid.username}`
     
     setTimeout(() => {
-      window.location.href = '../home/index.html'
+      window.location.href = './home/index.html'
     }, 3000)
     
     let token = Math.random().toString(12).substr(2)
