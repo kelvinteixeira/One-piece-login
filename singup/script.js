@@ -139,7 +139,7 @@ function singup() {
 
 
     setTimeout(() => {
-      window.location.href = '../login/index.html'
+      window.location.href = '../index.html'
     }, 3000)
   } else {
     msgError.setAttribute('style', 'display: block')
