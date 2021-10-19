@@ -3,6 +3,8 @@
 ## Sobre o projeto:
 Apenas para fins didáticos, essa aplicação simula um site de One Piece(todos os direitos reservados), onde é possivel se cadastrar mediante validção de cadastro com os dados salvos em local storage e logar no formulário normalmente.
 
+## https://onepiecelogin.netlify.app
+
 ## Tecnologias e linguagens usadas:
 - HTML
 - CSS
